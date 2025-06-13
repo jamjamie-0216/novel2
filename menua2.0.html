@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Jamie's Works</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #FFF4E6;
+      color: #5C3A2E;
+    }
+
+    .menu-header {
+      background-color: #7B3F3F;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      font-family: 'Sawarabi Mincho', serif;
+      font-size: 3rem;
+      letter-spacing: 3px;
+    }
+
+    .menu-content {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .menu-item {
+      background-color: #F9E8D9;
+      margin-bottom: 20px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .menu-item h3 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: #8B3E2F;
+    }
+
+    .menu-item p {
+      margin: 3px 0;
+    }
+
+    .menu-item .price {
+      color: #B34444;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 15px;
+      padding: 10px;
+      justify-content: space-between;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-description {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .author-box, .footer-box {
+      background-color: lightblue;
+      color: black;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 1000px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-header">
+    WELCOME TO JAMIE'S WORKS (^з^)-☆
+  </div>
+
+  <div class="menu-content">
+    <!-- 第一張圖片作為封面 -->
+    <div class="menu-item">
+      <h3 style="text-align: center;">•*¨*•.¸¸☆*･ﾟ•*¨ Hi there! Please read the menu first. •*¨*•.¸¸☆*･ﾟ•*¨ 
+        <br>What do you want to drink today? ↓↓↓</h3>
+      <img src="pic2.jpg" width="60%" style="display: block; margin: auto">
+      <br>
+      <h3 style="text-align: center;">Now you can scroll down and start to read all my works ❁.❁.❁.</h3>
+    </div>
+
+    <!-- 第一個作品 -->
+    <div class="menu-item">
+      <h2 style="color: #7B3F3F;">✿ BOOK OF KNOWLEDGE - SURVIVAL SKILLS IN HUNGER GAMES</h2>
+      <div class="card-description">
+        After I read Hunger Games, I got interested into those survival skills that Katniss used in the forest. 
+        <br> 
+        So I decided to do some research about it and also draw some of the skills.
+      </div>
+      <div class="gallery">
+        <a data-fancybox="gallery" data-src="pic3.jpg">
+            <img src="pic3.jpg" alt="作品1">
+        </a>
+        <a data-fancybox="gallery" data-src="pic4.jpg">        
+            <img src="pic4.jpg" alt="作品2">
+        </a>
+        <a data-fancybox="gallery" data-src="pic5.jpg">        
+            <img src="pic5.jpg" alt="作品3">
+        </a>
+      </div>
+    </div>
+
+    <!-- 第二個作品 -->
+    <div class="menu-item">
+      <h2 style="color:#7B3F3F;">✿ BOOK OF KNOWLEDGE - FLOWER OBSERVATION</h2>
+      <div class="card-description">
+        In spring, We walked around the campus and observed all kinds of flowers.
+        <br> 
+        We even took photos with those beautiful flowers and made some notes about their appearance. 
+        <br> 
+        In our Book of Knowlede, we add some information beside every flowers,
+        I also drew realistic illustrations about those flowers we observed.
+      </div>
+      <div class="gallery">
+        <a data-fancybox="gallery" data-src="pic6.jpg">
+            <img src="pic6.jpg" alt="作品1">
+        </a>
+        <a data-fancybox="gallery" data-src="pic7.jpg">
+            <img src="pic7.jpg" alt="作品2">
+        </a>
+        <a data-fancybox="gallery" data-src="pic8.jpg">        
+            <img src="pic8.jpg" alt="作品3">
+        </a>
+      </div>
+    </div>
+
+    <!-- 第三個作品 -->
+    <div class="menu-item">
+      <h2 style="color: #7B3F3F;">✿ DIALECTICAL JOURNAL - HUNGER GAMES</h2>
+      <div class="card-description">
+        After I read Hunger Games, I have some feelings that reflected to the quote in the novel.
+        <br>
+        The first voice is the quote.
+        The second voice is my thoughts and interpretations about the quote.
+      </div>
+      <br>
+      <a data-fancybox="gallery" data-src="pic9.jpg">    
+          <img src="pic9.jpg" width="40%" style="display: block; margin-left: 0">
+      </a>
+    </div>
+
+    <!-- 第四個作品 - 僅文字方塊 -->
+    <div class="menu-item">
+      <h2 style="color: #7B3F3F;">✿ MY REFLECTION - HUNGER GAMES</h2>
+      <div class="card-description">
+       <em>After I done reading Hunger Games, Professor Nelson came to NTTU to have a lecture and talk about the novel. Before her lecture, I didn't really think anything deep about the plot. During the lecture, it seems like she led us to read and analyze the book again.
+       <hr>
+       <br> 
+       When I first read The Hunger Games, I had my own perspective about certain parts of the plot. But Professor Nelson provided so many new ideas in her lecture, there were some thoughts that I hadn’t even thought about. It truly blew my mind. Hunger Games is a masterpiece, it includes different aspects of social issues. 
+       <hr>
+       <br>After reading the novel and listening to the lecture, I think writing a whole novel really is magical. It is just like creating and constructing your own kingdom, you have to consider all the details carefully. Matching all the small clues together and weaving a huge web. Inspired by the novel, the lesson I took this semester, and Professor Nelson's lecture, I would like to create my own novel one day.</em>
+      </div>
+    </div>
+
+    <h1 style="text-align: center;">•*¨*•.¸¸☆*･ﾟ•*¨ This is the end, see you next time. *•.¸¸☆*･ﾟ•*¨*•.¸¸☆</h1>
+
+
+    <!-- 作者介紹 -->
+    <div class="author-box">
+      <h2>About the Author  (ʋ •ﻌ• ʋ)</h2>
+      <h4 style="font-weight: bold;">Hello! I'm Jamie Tsai, a college student who enjoys reading novels and expressing my thoughts through illustrations. 
+        <br>I hope you enjoy my progress here!
+        <br>If you want to know more about me, click the link below.</h4>
+        <a href="https://jamjamie-0216.github.io/novel/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html" target="_blank">Here is the link</a>
+
+    </div>
+     
+
+    <!-- 版權資訊 -->
+    <div class="footer-box">
+       <h4 style="font-weight: bold;">© 2025 Jamie Tsai 蔡議萱 All rights reserved.
+        <br>
+      Images and content in my works are original. Images in the Menu is from Pinterest.</h4>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {});    
+  </script>
+</body>
+</html>
